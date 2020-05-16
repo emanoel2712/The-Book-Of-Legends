@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".viewControl.PacoteActivity">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/tbgimagenspng24"
+        android:orderInCategory="300"
+        android:title="Settings"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/sub_tutorial"
+                android:title="TUTORIAL" />
+            <item
+                android:id="@+id/sub_som"
+                android:title="SOM" />
+            <item
+                android:id="@+id/sub_resgatar_cod_promocao"
+                android:title="CONFIGURAÇÕES DA CONTA" />
+            <item
+                android:id="@+id/sub_termos_servico"
+                android:title="TERMOS DE SERVIÇO" />
+            <item
+                android:id="@+id/sub_suporte"
+                android:title="SUPORTE" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="300"
+        android:title="Procurar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_group"
+        android:icon="@drawable/tbgimagenspng23"
+        android:orderInCategory="400"
+        android:title="Grupo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/ic_action_cartnv"
+        android:orderInCategory="500"
+        android:title="Loja"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/tbgimagenspng20"
+        android:orderInCategory="600"
+        android:title="Menu"
+        app:showAsAction="always"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/sub_meu_perfil"
+                android:title="MEU PERFIL" />
+            <item
+                android:id="@+id/sub_minha_colecao"
+                android:title="MINHA COLEÇÃO" />
+            <item
+                android:id="@+id/sub_inventario"
+                android:title="INVENTÁRIO" />
+            <item
+                android:id="@+id/sub_feed_noticias"
+                android:title="FEED DE NOTÍCIAS" />
+
+
+        </menu>
+    </item>
+
+</menu>

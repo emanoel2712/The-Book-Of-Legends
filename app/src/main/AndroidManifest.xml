@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thebookoflegends">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_tbg"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".viewControl.MainActivity"></activity>
+        <activity
+            android:name=".viewControl.TrocasActivity"
+      />
+        <activity
+            android:name=".viewControl.PacoteFigurinhaIndividualActivity"
+            android:theme="@style/AppTheme.PackageFigIndividual" />
+        <activity
+            android:name=".viewControl.PacoteActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".viewControl.LojaActivity" />
+        <activity android:name=".viewControl.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

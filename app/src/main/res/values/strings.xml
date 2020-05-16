@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The Book Of Legends</string>
+    <string name="title_activity_trocas">TrocasActivity</string>
+    <string name="tab_text_1">TROCAR</string>
+    <string name="tab_text_2">DESTACADO</string>
+    <string name="tab_text_3">CRIAR</string>
+    <string name="tab_text_4">MINHAS TROCAS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Senha</string>
+</resources>

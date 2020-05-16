@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tela1"
+    tools:context=".viewControl.LoginActivity"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <LinearLayout
+                android:id="@+id/ee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="120dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/tela1_logoatt" />
+
+                <ImageView
+                    android:id="@+id/aspas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="188dp"
+                    android:background="@drawable/logo_book_legends"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ScrollView
+                    android:id="@+id/scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:orientation="vertical"
+                        android:padding="20dp"
+                        tools:ignore="MissingConstraints">
+
+                        <EditText
+                            android:id="@+id/email_edit_text"
+                            style="@style/CustomButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/tela1_form"
+                            android:ems="10"
+                            android:hint="@string/login_email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="#695D27"
+                            android:textColorHint="#695D27" />
+
+                        <EditText
+                            android:id="@+id/password_edit_text"
+                            style="@style/CustomButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/tela1_form"
+                            android:ems="10"
+                            android:hint="@string/login_password"
+                            android:inputType="textPassword"
+                            android:textColor="#695D27"
+                            android:textColorHint="#695D27" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:layout_width="180dp"
+                                android:layout_height="50dp"
+
+
+                                android:background="@drawable/tela1_bt_criar_conta"></Button>
+
+                            <Button
+                                android:id="@+id/btEntrar"
+                                android:layout_width="147dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/tela1_bt_entrar"
+                                android:onClick="clickEntrar"></Button>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
